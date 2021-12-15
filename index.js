@@ -15,8 +15,6 @@ const verifiedDownload = async (fileUrl, sha512Url) => {
     catch (err) {
         console.log(err);
     }
-
-   
 }
 
 verifiedDownload(
